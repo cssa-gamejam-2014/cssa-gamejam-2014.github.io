@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+	background: none repeat scroll 0 0 #E0E0E0;
+}
+#gamecanvas {
+    width: 100%;
+    height: 350px;
+}
+.chooseCanvas {
+}
+#content {
+    width: 100%;
+    height: 450px;
+	clear:both;
+}
+#gamescreen {
+}
+#storyscreen {
+}
+#failurescreen {
+	display: none;
+}
+#successscreen {
+	display: none;
+}
+#characters .nameplate {
+	display: inline-block;
+	width: 175px;
+	text-align: center;
+}
+.storytime {
+	font-family: Helvetica;
+	width: 40%;
+	margin: 0px auto;
+}
+.backbtn {
+	display:inline-block; float:left; margin-left: 120px; margin-top: 30px;
+}
+.nextbtn {
+	position:relative; display:block; float:right; margin-right: 120px; margin-top: 30px;
+}
+.hintbtn {
+	
+}
